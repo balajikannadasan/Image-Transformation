@@ -11,26 +11,26 @@ Import the packages numpy,cv2 and matplotlib
 <br>
 
 ### Step2:
-Translate the image using M=np.float32([[1,0,20],[0,1,50],[0,0,1]]) translated_img=cv2.warpPerspective(input_img,M,(cols,rows))
+Perform image translation.
 <br>
 
 ### Step3:
-Scale the image using M=np.float32([[1.5,0,0],[0,2,0],[0,0,1]]) scaled_img=cv2.warpPerspective(input_img,M,(cols,rows))
+Perform image scaling.
 <br>
 
 ### Step4:
-Shear the image using M_x=np.float32([[1,0.2,0],[0,1,0],[0,0,1]]) sheared_img_xaxis=cv2.warpPerspective(input_img,M_x,(cols,rows))
+Perform image shearing.
 <br>
 
 ### Step5:
-Reflection of image can be achieved through the code M_x=np.float32([[1,0,0],[0,-1,rows],[0,0,1]]) reflected_img_xaxis=cv2.warpPerspective(input_img,M_x,(cols,rows))
+Perform reflection of image.
 <br>
 
 ### Step6:
-Rotate the image using angle=np.radians(45) M=np.float32([[np.cos(angle),-(np.sin(angle)),0],[np.sin(angle),np.cos(angle),0],[0,0,1]]) rotated_img=cv2.warpPerspective(input_img,M,(cols,rows))
+Perform rotation of image.
 
 ### Step7:
-Crop the image using cropped_img=input_img[20:150,60:230]
+Crop the image.
 
 ### Step8:
 Display all the Transformed images.
