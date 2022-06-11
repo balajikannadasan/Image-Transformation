@@ -205,15 +205,14 @@ plt.show()
 <br>
 <br>
 <br>
-
+<br></br>
+<br></br>
 ### ii) Image Scaling
 ![o](./3.png)
 <br>
 <br>
 <br>
 <br>
-
-
 ### iii)Image shearing
 ![ou](./4.png)
 ![o](./5.png)
@@ -222,7 +221,9 @@ plt.show()
 <br>
 <br>
 
-
+<br></br>
+<br></br>
+<br></br>
 ### iv)Image Reflection
 ![ou](./6.png)
 ![o](./7.png)
@@ -241,7 +242,9 @@ plt.show()
 <br>
 
 
-
+<br></br>
+<br></br>
+<br></br>
 ### vi)Image Cropping
 ![ouput](./9.png)
 <br>
